@@ -3,22 +3,95 @@
 
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
-	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" /> -->
 	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
 	<meta name="format-detection" content="telephone=no">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<link rel="stylesheet" href="css/style.css" />
-	<!-- <link rel="icon" href="img/" type="image/x-icon"> -->
-	<title></title>
+	<link href="https://fonts.googleapis.com/css?family=SUSE:100,200,300,regular,500,600,700,800" rel="stylesheet" />
+	<title>Ass Mikhail</title>
 </head>
 
 <body>
-	<div class="wrapper">
-		<main></main>
-		<footer></footer>
+	<main class="main">
+		<div class="wrapper">
+			<div class="top">
+				<img class="top-image" src="./assets/1.jpg" alt="">
+				<div class="top-block-text">
+					<h1 class="main-title">A$$корт услуги бесплатные</h1>
+					<img style="max-height: 300px;" class="video" src="./assets/video.gif"></img>
+					<a class="link" href="https://vk.com/moikorol" target="_blank">Связаться со мной</a>
+				</div>
+			</div>
+
+	</main>
+	<style>
+		.wrapper {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin: 0 auto;
+		}
+
+		.top {
+			margin-top: 20vh;
+			display: flex;
+			justify-content: space-between;
+			align-items: start;
+			gap: 50px;
+		}
+
+		.top-image {
+			max-height: 600px;
+			border-radius: 40px;
+		}
+
+		.main {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin: 0 auto;
+		}
+
+		.top-block-text {
+			display: flex;
+			flex-direction: column;
+		}
+
+		.main-title {
+			font-size: 68px;
+			font-weight: 700;
+			max-width: 600px;
+			letter-spacing: 2px;
+			line-height: 84px;
+			color: gold;
+		}
+
+		.link {
+			width: 400px;
+			background-color: red;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 10px 30px;
+			border-radius: 20px;
+			height: 100px;
+			border: none;
+			transition: background-color 0.3s;
+			will-change: transition;
+			margin: 0 auto;
+			font-size: 40px;
+			font-weight: 600;
+			color: white;
+			font-family: SUSE;
+			white-space: nowrap;
+		}
+
+		.link:hover {
+			background-color: rgb(121, 15, 15);
+		}
+	</style>
 	</div>
 	<!-- Подключаем Swiper -->
-	<!-- <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script> -->
 	<!-- Подключаем файл JS скриптов -->
 	<script src="js/script.js"></script>
 </body>

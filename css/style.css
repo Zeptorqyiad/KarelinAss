@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 [class*=__container] {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -161,7 +161,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  font-family: Arial;
+  background-color: rgb(47, 36, 198);
+  font-family: SUSE;
   font-size: 16px;
 }
 
